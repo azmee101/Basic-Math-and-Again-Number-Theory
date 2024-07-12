@@ -10,7 +10,7 @@ using namespace std;
 
 ll lcm(ll a, ll b){
 
-    return a/ __gcd(a, b) * b;
+    return (a / __gcd(a, b)) * b;
 }
 
 int32_t main()
